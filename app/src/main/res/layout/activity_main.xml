@@ -7,21 +7,36 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <fragment
-        android:tag="아무거나넣어도됨"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        class="com.example.fragmentbasic_20220218.fragments.MyFirstFragment"/>
+        android:layout_height="match_parent" >
 
-    <fragment
-        android:tag="아무거나넣어도됨2"
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        class="com.example.fragmentbasic_20220218.fragments.SecondFragment"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <fragment
-        android:tag="아무거나넣어도됨3"
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        class="com.example.fragmentbasic_20220218.fragments.ThirdFragment"/>
+            <fragment
+                android:tag="아무거나넣어도됨"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                class="com.example.fragmentbasic_20220218.fragments.MyFirstFragment"/>
+
+            <fragment
+                android:tag="아무거나넣어도됨2"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                class="com.example.fragmentbasic_20220218.fragments.SecondFragment"/>
+
+            <fragment
+                android:tag="아무거나넣어도됨3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                class="com.example.fragmentbasic_20220218.fragments.ThirdFragment"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
 </LinearLayout>
