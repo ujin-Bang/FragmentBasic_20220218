@@ -12,4 +12,11 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         class="com.example.fragmentbasic_20220218.fragments.MyFirstFragment"/>
+
+    <fragment
+        android:tag="아무거나넣어도됨2"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        class="com.example.fragmentbasic_20220218.fragments.SecondFragment"/>
+
 </LinearLayout>
